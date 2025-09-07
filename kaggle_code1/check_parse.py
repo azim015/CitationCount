@@ -30,4 +30,5 @@ def main():
 
     l.info(f"pymupdf misses: {gt.join(df, on='article_id').with_columns(hit=pl.col('text').str.contains(pl.col('norm_id'), literal=True)).filter(~pl.col('hit')).height} dataset_ids")
 
-if __name__=='__main__': main()
+if __name__=='__main__': 
+    main()
