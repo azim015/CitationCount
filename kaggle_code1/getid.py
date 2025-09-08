@@ -26,7 +26,6 @@ def find_last_reference_header(text: str, header_patterns: list[re.Pattern]) -> 
             last_match_idx = matches[-1].start()
     return last_match_idx
 
-
 def find_last_first_citation(text: str) -> Optional[int]:
     lines = text.splitlines()
     last_match_line = None
