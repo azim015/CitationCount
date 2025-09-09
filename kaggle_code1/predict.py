@@ -5,7 +5,6 @@ import os
 
 l = get_logger()
 
-
 PROMPT_CLASSIFY_CITATION_TYPE = '''
 # Role & Task
 You are an expert data citation analyst. Your task is to classify a given citation from a scientific paper into one of two categories based on the context: **A (Primary Data)** or **B (Secondary Data)**.
